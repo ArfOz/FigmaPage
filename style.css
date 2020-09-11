@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    border: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+    
+}
+body{
+    display: block;
+    background: url(./image/alesia-kazantceva-XLm6-fPwK5Q-unsplash\ 1.png),rgba(150, 145, 145, 0.79);
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+}
+
+#left{
+    height: 30px;
+    width: 150px;  
+    background: #C4C4C4 ;
+    margin-left: 2em;
+    margin-top: 2em;
+    float: left;
+    
+    
+}
+#right{
+    float: right;
+    margin-right: 2em;
+    margin-top: 2em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+   
+    
+}
+   
+#regi{
+    color: red;
+    text-decoration: none;
+    padding-left:10px ;
+}
+#Login{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+
+}
+.navbar:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: inline-block; 
+   height: 0; 
+   clear: both;
+}
+.Best{
+    margin-top: 2em;
+    font-family: 'Modak';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 54px;
+    line-height: 81px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+#kutu{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%m;
+    right: 15%;
+    width: 288px;
+    height: 140px;
+   
+    
+}
+
+ul.listee {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 8%;
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-left: 4%;
+   
+
+   
+}
+
+
+@media screen {max-width: 480px;
+   .best{
+       overflow: ;
+       word-wrap:normal;
+       display: block;
+       flex-wrap: wrap;
+   }
+
+}
